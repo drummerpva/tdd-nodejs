@@ -1,6 +1,6 @@
 import { HttpResponse } from '../protocols/http'
 import { ServerError } from '../errors'
-import { AccountModel } from '../../domain/models'
+import { AccountModel } from '../../domain/models/account'
 
 export const badRequest = (error: Error): HttpResponse => ({
   statusCode: 400,
